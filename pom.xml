@@ -10,8 +10,7 @@
   <name>Java Sample App</name>
  
   <properties>
-    <!-- You can use a later version if you are are using Java 8 -->
-    <jettyVersion>9.2.0.RC0</jettyVersion>
+    <!-- You can use a later version if you are are using Java 8 -->  
     <mainApplication>org.example.Application</mainApplication>
     <maven.compiler.source>1.7</maven.compiler.source>
     <maven.compiler.target>1.7</maven.compiler.target>
@@ -21,7 +20,7 @@
     <dependency>
       <groupId>org.eclipse.jetty</groupId>
       <artifactId>jetty-server</artifactId>
-      <version>${jettyVersion}</version>
+      <version>[9.3.24.v20180605,)</version>
     </dependency>
   </dependencies>
  
